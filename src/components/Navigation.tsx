@@ -8,7 +8,7 @@ const Navigation = () => {
   const navItems = [
     { name: "Home", href: "#home" },
     { name: "Our Expertise", href: "#expertise" },
-    { name: "Funding", href: "#funding" },
+    { name: "Commercial", href: "#commercial" },
     { name: "About Us", href: "#about" },
     { name: "Contact Us", href: "#contact" },
   ];
@@ -19,9 +19,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              INFOLED
-            </div>
+            <img 
+              src="/lovable-uploads/82097f60-3a3c-44ed-8746-1e71d1570e1a.png" 
+              alt="INFOLED - Together, We Power Change" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
