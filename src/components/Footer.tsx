@@ -91,7 +91,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center">
           <div className="text-primary-foreground/60">
-            © 2024 INFOLED. All rights reserved.
+            © 2025 INFOLED. All rights reserved. Developed by Shaqeel less @ Soft Glitch Solutions
           </div>
           <div className="flex items-center gap-2 mt-4 md:mt-0 text-primary-foreground/60">
             <Calendar className="w-4 h-4" />
